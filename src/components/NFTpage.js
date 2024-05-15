@@ -10,7 +10,7 @@ export default function NFTPage(props) {
   const [data, updateData] = useState({});
   const [dataFetched, updateDataFetched] = useState(false);
   const [message, updateMessage] = useState("");
-  const [currAddress, updateCurrAddress] = useState("0x");
+  const [currAddress, updateCu rrAddress] = useState("0x");
 
   async function getNFTData(tokenId) {
     const ethers = require("ethers");
